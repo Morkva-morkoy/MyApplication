@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="title">
+
+Приветствую
+</string>
+    <string name="subtitle">
+Проведи этот день продуктивно
+</string>
+    <string name="molo_id">
+
+Ты молодец!
+</string>
+    <string name="ve_id">
+Вечер
+</string>
+
+<string name="app_name">
+    "APP"
+</string>
+
+</resources>

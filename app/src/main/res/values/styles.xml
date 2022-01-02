@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:textColor">
+            #443A39
+        </item>
+
+    </style>
+
+    <style name="subtitle">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #503B32
+        </item>
+
+    </style>
+
+    <style name="molo_id">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #8D8786
+        </item>
+
+    </style>
+
+    <style name="ve_id">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #443A39
+        </item>
+
+    </style>
+
+
+
+</resources>

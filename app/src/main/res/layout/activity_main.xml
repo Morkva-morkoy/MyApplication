@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/main_id"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="s">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:text="@string/title"
+            android:textAppearance="@style/title" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.6"
+            android:gravity="top"
+            android:text="@string/subtitle"
+            android:textAppearance="@style/subtitle"
+            android:textColor="#546E7A"
+            tools:ignore="TextContrastCheck" />
+
+        <RelativeLayout
+            android:id="@+id/bottom_bar"
+            android:layout_width="0dp"
+            android:layout_height="83dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-48dp"
+            android:background="@drawable/bottom_bar"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/icons"
+                android:layout_width="320dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/icons">
+
+                <RelativeLayout
+                    android:id="@+id/profile_ico"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/profile_ico"
+                    android:clipToOutline="true">
+
+                    <View
+                        android:id="@+id/shape"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/shape" />
+
+                    <View
+                        android:id="@+id/oval"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/oval" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/search_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/search_icon"
+                    android:clipToOutline="true">
+
+                    <View
+                        android:id="@+id/shape1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/shape1" />
+
+                    <View
+                        android:id="@+id/oval1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/oval1" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/home_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/home_icon"
+                    android:clipToOutline="true">
+
+                    <View
+                        android:id="@+id/home_icon1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:background="@drawable/home_icon1" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/rectangle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/rectangle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/component_2"
+            android:layout_width="327dp"
+            android:layout_height="402dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/component_2">
+
+            <RelativeLayout
+                android:id="@+id/description"
+                android:layout_width="303dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/description"
+                android:clipToOutline="true"
+                android:elevation="6dp">
+
+                <TextView
+                    android:id="@+id/molo_id"
+                    android:layout_width="272dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="46dp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="2sp"
+                    android:text="@string/molo_id"
+                    android:textAppearance="@style/molo_id"
+                    android:textColor="#5D4037"
+                    android:translationY="-1.06sp" />
+
+                <TextView
+                    android:id="@+id/ve_id"
+                    android:layout_width="61dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="top"
+                    android:text="@string/ve_id"
+                    android:textAppearance="@style/ve_id" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/com2_id"
+                android:layout_width="0dp"
+                android:layout_height="87dp"
+                android:layout_marginTop="202.69dp"
+                android:background="@drawable/com2_id"
+                android:clipToOutline="true"
+                android:elevation="46dp">
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
